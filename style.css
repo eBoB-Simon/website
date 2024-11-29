@@ -59,6 +59,10 @@ section p {
     color: #555;
 }
 
+#about p {
+    text-align: justify;
+}
+
 /* Footer */
 footer {
     background: #333;
