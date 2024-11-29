@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%; /* Ensure the body takes the full height of the viewport */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    margin: 0; /* Remove default margin */
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -57,7 +64,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
+    margin-top: auto; /* Push footer to the bottom when content is insufficient */
 }
 
 footer p {
